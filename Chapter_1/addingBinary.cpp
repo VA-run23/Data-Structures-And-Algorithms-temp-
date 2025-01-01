@@ -7,7 +7,7 @@ using namespace std;
 // Function to reverse the digits of an integer
 int reverse(int n){
     int ans = 0;
-    while(n > 0){
+    while(n > 0){ 
         int lastDigit = n % 10; // Extract the last digit
         ans = ans * 10 + lastDigit; // Append the last digit to ans     
         n /= 10; // Remove the last digit from n
